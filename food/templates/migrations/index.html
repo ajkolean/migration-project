@@ -1,0 +1,5 @@
+<ul>
+{%  for food in foods  %}
+  <li><a href="/restaurants/{{ food.type }}/">{{  food.type }}</a></li>
+{%  endfor %}
+</ul>
