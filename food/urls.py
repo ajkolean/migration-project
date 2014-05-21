@@ -7,5 +7,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'food.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^$', views.index, name='index'),
-)
+    url(r'^index/', views.index, name='index'),
+    url(r'^restaurants/(?P<type_name>\w+)', views.food_type, name='restaurant'),
+    )
+

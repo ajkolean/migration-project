@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <h1>These are some {{ foodtype }} restaurants in Austin!</h1>
+        {% if type %}
+            {% if restaurants %}
+                <table style="width: 750px">
+                    <tr>
+                        <td><strong>Restaurant Name</strong></td>
+                        <td><strong>Open</strong></td>
+                        <td><strong>DERRSCORE!</strong></td>
+                        <td><strong>Location</strong></td>
+                    </tr>
+                    {% for rest in restaurants %}
+                    <tr>
+                        <td>{{ rest.name }}</td>
+                        <td>{{ rest.daysopen }}</td>
+                        <td>{{ rest.derrscore }}</td>
+                        <td>{{ rest.location }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            {% else %}
+                <strong> No restaurants for that foodtype </strong>
+            {% endif %}
+        {% else %}
+        <div>That foodtype doesn't exsist!</div>
+        {% endif %}
+    </body>
+</html>
+
+
+{#            <ul>#}
+{#                {% for rest in restaurants %}#}
+{#                <li>{{ rest.name }} is open from {{ rest.daysopen }} has a derrscore of {{ rest.derrscore }} and#}
+{#                    is located at {{ rest.location }} </li>#}
+{#                {% endfor %}#}
+{#            </ul>#}

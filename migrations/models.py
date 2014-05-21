@@ -10,7 +10,7 @@ class Food(models.Model):
     )
     type = models.TextField()
     country = models.CharField(max_length=50)
-    Healthiness = models.IntegerField(default=1, choices=HEALTH_SCORE)
+    healthiness = models.IntegerField(default=1, choices=HEALTH_SCORE)
 
 
 class Restaurant(models.Model):
