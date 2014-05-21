@@ -24,5 +24,6 @@ class Restaurant(models.Model):
     name = models.CharField(max_length=50, null=True, blank=True)
     type = models.ForeignKey('Food', related_name='restaurants')
     daysopen = models.TextField()
-    derrscore = models.IntegerField(default=2, choices=DERR_SCORE)
-    location = models.CharField(max_length=100)
+    location = models.TextField()
+    derrscore = models.FloatField()
+    menu = models.URLField(max_length=200, null=True, blank=True)

@@ -13,29 +13,9 @@ def index(request):
 def food_type(request, type_name):
     context = {'foodtype' : type_name}
 
-
-    if type_name == 'italian':
-        type_id = 1
-    elif type_name == 'mexican':
-        type_id = 4
-    elif type_name == 'american':
-        type_id = 5
-    elif type_name == 'chinese':
-        type_id = 6
-    elif type_name == 'japanese':
-        type_id = 7
-    elif type_name == 'mediterranean':
-        type_id = 8
-    elif type_name == 'deli':
-        type_id = 9
-    elif type_name == 'greek':
-        type_id = 10
-
-
     try:
         type = Food.objects.get(type=type_name)
-
-        restaurants = Restaurant.objects.filter(type_id=type_id).order_by('-derrscore')
+        restaurants = type.restaurants.all().order_by('-derrscore')
 
         context['restaurants'] = restaurants
         context['type'] = type

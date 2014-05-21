@@ -7,14 +7,13 @@ from django.db import models, migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('migrations', '0001_initial'),
+        ('migrations', '0004_remove_restaurant_derrscore'),
     ]
 
     operations = [
-        migrations.AddField(
+        migrations.RenameField(
             model_name='restaurant',
-            name='name',
-            field=models.CharField(max_length=50, null=True, blank=True),
-            preserve_default=True,
+            old_name='derrscore_temp',
+            new_name='derrscore',
         ),
     ]
