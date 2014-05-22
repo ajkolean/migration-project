@@ -26,4 +26,4 @@ class Restaurant(models.Model):
     daysopen = models.TextField()
     location = models.TextField()
     derrscore = models.FloatField()
-    menu = models.URLField(max_length=200, null=True, blank=True)
+    website = models.URLField(max_length=200, null=True, blank=True)

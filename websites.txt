@@ -1,0 +1,171 @@
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.eastsidecafeaustin.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://barleyswine.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://oddduckaustin.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.winkrestaurant.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.apothecaryaustin.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.galaxycafeaustin.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.chickenlollypop.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.asiamarketaustin.com/restaurantHome.html')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.yelp.com/biz/888-pan-asian-restaurant-austin')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.hohochinesebbq.com/common/template/default.jsp?href=index.jsp')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.yelp.com/biz/chens-noodle-house-austin')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.firstwokaustin.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.dinhochinesebbq.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.melvinsdelicomfort.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://littledeliandpizza.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://fricanosdeli.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.neworldeli.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://neworldcafe.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.gsdynamitedeli.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.yelp.com/biz/tam-deli-and-cafe-austin')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.santoriniaustin.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://athenianbargrill.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://arpeggiogrill.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.bigfatgreekgyros.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.zorbagreekrestaurant.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.tinosgreekcafe.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.mylittlegreek.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://maryesgourmetpizza.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://patrizis.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.mandolasmarket.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.milanoaustin.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://andiamoitaliano.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://latraviata.net/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.realespizza.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.sarahsmediterranean.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://arpeggiogrill.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://themedchef.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.dimassi.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.yelp.com/biz/pars-mediterranean-supermarket-and-deli-austin')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.pharas.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://zoeskitchen.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.luckyrobotrestaurant.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.kome-austin.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://ryuofjapan.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.loveballsbus.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.lavacateppan.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://mail.uchikoaustin.com/uchi')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://mail.uchikoaustin.com/uchiko')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.fondasanmiguel.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.juliosaustin.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.currasgrill.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://habanerocafe.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://hechoenmexico-restaurant.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://www.austintxmexicanfood.com/')");
+
+cur.execute("INSERT INTO migrations_restaurant (website) \
+VALUES ('http://consueloskitchen.com/')");
+
+conn.commit()
+
+
+
+
+
