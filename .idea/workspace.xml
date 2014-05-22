@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6df6873-88a2-406d-bc75-919a06aaa517" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/migrations/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/migrations/models.py" afterPath="$PROJECT_DIR$/migrations/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/food/templates/migrations/restaurant.html" afterPath="$PROJECT_DIR$/food/templates/migrations/restaurant.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/food/settings.py" afterPath="$PROJECT_DIR$/food/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -32,12 +31,28 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/food/templates/migrations/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="7" selection-start="258" selection-end="258" vertical-scroll-proportion="-0.0" vertical-offset="135" max-vertical-offset="225">
+            <state line="9" column="7" selection-start="258" selection-end="258" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restaurant.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/food/templates/migrations/restaurant.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="525">
               <folding>
-                <marker date="1400698857000" expanded="true" signature="5:257" placeholder="..." />
-                <marker date="1400698857000" expanded="true" signature="16:249" placeholder="..." />
-                <marker date="1400698857000" expanded="true" signature="87:237" placeholder="..." />
+                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,28 +60,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/migrations/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding>
-                <marker date="1400767946000" expanded="true" signature="31:86" placeholder="INSERT INTO ..." />
-                <marker date="1400767946000" expanded="true" signature="257:340" placeholder="UPDATE migra..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.cpp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.63004845" vertical-offset="0" max-vertical-offset="619">
+            <state line="29" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -97,19 +91,20 @@
         <option value="$PROJECT_DIR$/food/settings.py" />
         <option value="$PROJECT_DIR$/food/urls.py" />
         <option value="$PROJECT_DIR$/food/templates/migrations/index.html" />
-        <option value="$PROJECT_DIR$/food/templates/migrations/restaurant.html" />
         <option value="$PROJECT_DIR$/migrations/views.py" />
         <option value="$PROJECT_DIR$/migrations/migrations/0002_restaurant_derrscore_temp.py" />
         <option value="$PROJECT_DIR$/migrations/migrations/0003_auto_20140521_2043.py" />
         <option value="$PROJECT_DIR$/migrations/models.py" />
         <option value="$PROJECT_DIR$/test.cpp" />
+        <option value="$PROJECT_DIR$/food/templates/migrations/restaurant.html" />
+        <option value="$PROJECT_DIR$/scripts/populate_websites.py" />
         <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
-    <option name="y" value="68" />
+    <option name="x" value="87" />
+    <option name="y" value="35" />
     <option name="width" value="1146" />
     <option name="height" value="729" />
   </component>
@@ -249,6 +244,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/djed" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -472,7 +468,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="68" width="1146" height="729" extended-state="0" />
+    <frame x="87" y="35" width="1146" height="729" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -515,11 +511,7 @@
     <entry file="file://$PROJECT_DIR$/food/templates/migrations/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="7" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
-          <folding>
-            <marker date="1400698857000" expanded="true" signature="5:257" placeholder="..." />
-            <marker date="1400698857000" expanded="true" signature="16:249" placeholder="..." />
-            <marker date="1400698857000" expanded="true" signature="87:237" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -533,16 +525,6 @@
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="53" selection-start="172" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="2865">
-          <folding>
-            <marker date="1400767946000" expanded="true" signature="31:86" placeholder="INSERT INTO ..." />
-            <marker date="1400767946000" expanded="true" signature="257:340" placeholder="UPDATE migra..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
@@ -574,12 +556,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/migrations/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270" />
+        <state line="12" column="25" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270">
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/food/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255" />
+        <state line="11" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/food/settings.py">
@@ -598,12 +588,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/migrations/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105" />
+        <state line="1" column="25" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/food/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225" />
+        <state line="9" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/migrations/migrations/__init__.py">
@@ -618,28 +616,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/food/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food/templates/migrations/restaurant.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="320" selection-end="320" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food/templates/migrations/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
+        <state line="13" column="0" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <folding>
-            <marker date="1400698857000" expanded="true" signature="5:257" placeholder="..." />
-            <marker date="1400698857000" expanded="true" signature="16:249" placeholder="..." />
-            <marker date="1400698857000" expanded="true" signature="87:237" placeholder="..." />
+            <element signature="e#0#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/migrations/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="67" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
+        <state line="17" column="67" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/migrations/migrations/0001_initial.py">
@@ -699,23 +689,6 @@
         <state line="31" column="0" selection-start="244" selection-end="1443" vertical-scroll-proportion="0.7050243" vertical-offset="30" max-vertical-offset="735" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding>
-            <marker date="1400767946000" expanded="true" signature="31:86" placeholder="INSERT INTO ..." />
-            <marker date="1400767946000" expanded="true" signature="257:340" placeholder="UPDATE migra..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/populate_chinese.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="48" selection-start="463" selection-end="463" vertical-scroll-proportion="0.1693038" vertical-offset="103" max-vertical-offset="735">
@@ -727,9 +700,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.cpp">
+    <entry file="file://$PROJECT_DIR$/migrations/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.63004845" vertical-offset="0" max-vertical-offset="619">
+        <state line="29" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food/templates/migrations/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="258" selection-end="258" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food/templates/migrations/restaurant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="525">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/populate_websites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="40" selection-start="681" selection-end="681" vertical-scroll-proportion="-0.5993538" vertical-offset="596" max-vertical-offset="1215">
+          <folding>
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+            <marker date="1400770831000" expanded="true" signature="-1:-1" placeholder="UPDATE migra..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606">
           <folding />
         </state>
       </provider>

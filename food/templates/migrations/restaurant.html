@@ -12,7 +12,7 @@
                     </tr>
                     {% for rest in restaurants %}
                     <tr>
-                        <td>{{ rest.name }}</td>
+                        <td><a href={{ rest.website }}>{{ rest.name }}</a></td>
                         <td>{{ rest.daysopen }}</td>
                         <td>{{ rest.derrscore }}</td>
                         <td>{{ rest.location }}</td>
@@ -27,11 +27,3 @@
         {% endif %}
     </body>
 </html>
-
-
-{#            <ul>#}
-{#                {% for rest in restaurants %}#}
-{#                <li>{{ rest.name }} is open from {{ rest.daysopen }} has a derrscore of {{ rest.derrscore }} and#}
-{#                    is located at {{ rest.location }} </li>#}
-{#                {% endfor %}#}
-{#            </ul>#}
