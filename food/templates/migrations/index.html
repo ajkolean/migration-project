@@ -1,10 +1,28 @@
+<!DOCTYPE HTML>
 <html>
     <body>
+    {%  verbatim %}
+        <script type="text/x-handlebars" data-template-name="application">
+            {{ outlet }}
+        </script>
         <h1>What kind of food would you like to eat?</h1>
-        <ul>
-        {%  for food in foods  %}
-          <li><a href="/restaurants/{{ food.type }}/">{{  food.type }}</a></li>
-        {%  endfor %}
-        </ul>
+
+        <script type="text/x-handlebars" data-template-name="index">
+           {{#each item in controller}}
+                {{ item.type }}
+           {{/each}}
+        </script>
+
+
+    {%  endverbatim %}
+
+    <script src="{{ STATIC_URL }}js/depends/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="{{ STATIC_URL }}js/depends/handlebars-1.1.2.js" type="text/javascript"></script>
+    <script src="{{ STATIC_URL }}js/depends/ember-1.5.1.js" type="application/javascript"></script>
+    <script src="{{ STATIC_URL }}js/depends/ember-data.js" type="text/javascript"></script>
+    <script src="{{ STATIC_URL }}js/depends/adapter.js" type="text/javascript"></script>
+    <script src="{{ STATIC_URL }}js/application.js" type="text/javascript"></script>
+    <script src="{{ STATIC_URL }}js/models/models.js" type="text/javascript"></script>
+    <script src="{{ STATIC_URL }}js/router.js"></script>
     </body>
 </html>

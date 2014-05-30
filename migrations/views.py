@@ -7,12 +7,15 @@ from django.shortcuts import render
 # Create your views here.
 
 
-def index(request):
-    foods = Food.objects.order_by('type')
-    context = {
-        'foods': foods
-    }
-    return render(request, 'index.html', context)
+# def index(request):
+#     foods = Food.objects.order_by('type')
+#     context = {
+#         'foods': foods
+#     }
+#     return render(request, 'index.html', context)
+
+class HomeView(TemplateView):
+    template_name = "index.html"
 
 
 class list_foods(generics.ListAPIView):

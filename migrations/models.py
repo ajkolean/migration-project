@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+
 class Food(models.Model):
     HEALTH_SCORE = (
         (0, 'Healthy'),
