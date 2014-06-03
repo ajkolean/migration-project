@@ -7,10 +7,12 @@
         </script>
         <h1>What kind of food would you like to eat?</h1>
 
-        <script type="text/x-handlebars" data-template-name="index">
+        <script type="text/x-handlebars" data-template-name="foods">
+        <ul>
            {{#each item in controller}}
-                {{ item.type }}
+                <li>{{ item.type }}</li>
            {{/each}}
+        </ul>
         </script>
 
 
@@ -21,8 +23,9 @@
     <script src="{{ STATIC_URL }}js/depends/ember-1.5.1.js" type="application/javascript"></script>
     <script src="{{ STATIC_URL }}js/depends/ember-data.js" type="text/javascript"></script>
     <script src="{{ STATIC_URL }}js/depends/adapter.js" type="text/javascript"></script>
+        <script src="{{ STATIC_URL }}js/models/models.js" type="text/javascript"></script>
+
     <script src="{{ STATIC_URL }}js/application.js" type="text/javascript"></script>
-    <script src="{{ STATIC_URL }}js/models/models.js" type="text/javascript"></script>
     <script src="{{ STATIC_URL }}js/router.js"></script>
     </body>
 </html>
