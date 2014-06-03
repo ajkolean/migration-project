@@ -7,13 +7,26 @@
         </script>
         <h1>What kind of food would you like to eat?</h1>
 
-        <script type="text/x-handlebars" data-template-name="foods">
-        <ul>
-           {{#each item in controller}}
-                <li>{{ item.type }}</li>
-           {{/each}}
-        </ul>
+        <script type="text/x-handlebars" data-template-name="index">
+        {{#link-to 'foods'}} food {{/link-to}}
         </script>
+
+        <script type="text/x-handlebars" data-template-name="foods">
+           {{#each item in model}}
+            {{item.type}}
+            {{#link-to 'restaurants' item.type}} link {{/link-to}}
+
+           {{/each}}
+
+        </script>
+
+    <script type="text/x-handlebars" data-template-name="restaurants">
+           {{#each item in model}}
+            {{item.name}}
+           {{/each}}
+        </script>
+
+
 
 
     {%  endverbatim %}
