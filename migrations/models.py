@@ -13,6 +13,12 @@ class Food(models.Model):
     country = models.CharField(max_length=50)
     healthiness = models.IntegerField(default=1, choices=HEALTH_SCORE)
 
+    def health(self):
+        if self.healthiness >= 2:
+            return "this food is unhealthy"
+        else:
+            return "this food is fine for you"
+
 
 class Restaurant(models.Model):
     DERR_SCORE = (
