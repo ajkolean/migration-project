@@ -1,9 +1,9 @@
 var App = Ember.Application.create();
 
 App.Router.map(function() {
-    this.resource("foods", function() {
-        this.route("restaurants", { path : "/restaurants/:restaurant_id" });
-    });
+    this.resource("foods");
+    this.route("food", { path : "/food/:food_id" });
+    this.resource("restaurants", {path : "/restaurants/:restaurant_id/"});
    // this.resource("food", { path: ':/food_id' });
 //    this.route("restaurants", {path : "/restaurants/:type"});
 });
@@ -22,7 +22,7 @@ App.Food = DS.Model.extend({
     type: DS.attr('string'),
     country: DS.attr('string'),
     healthiness: DS.attr('number'),
-    restaurants: DS.hasMany('restaurant')
+    restaurants: DS.hasMany('Restaurant')
 });
 
 App.Restaurant = DS.Model.extend({
@@ -32,10 +32,13 @@ App.Restaurant = DS.Model.extend({
     location: DS.attr('string'),
     derrscore: DS.attr('number'),
     website: DS.attr('string'),
-    food: DS.belongsTo('food')
+    food: DS.belongsTo('Food')
 });
 
 
+App.FoodView = Ember.View.extend({
+    templateName: 'food'
+});
 
 
 
@@ -43,6 +46,15 @@ App.FoodsRoute = Ember.Route.extend({
     model: function() {
     //console.log(this.store.find('food'));
     return this.store.find('food');
+    //return Ember.$.getJSON('http://127.0.0.1:8000/foods');
+     //console.log(App.Food.find(1));
+    // return Ember.$.getJSON('https://api.clever.com/v1.1/students/530e5960049e75a9262cff1d');
+    }
+});
+
+App.RestaurantsRoute = Ember.Route.extend({
+    model: function(params) {
+       return this.store.findMany('restaurant', params.restaurant_type);
     //return Ember.$.getJSON('http://127.0.0.1:8000/foods');
      //console.log(App.Food.find(1));
     // return Ember.$.getJSON('https://api.clever.com/v1.1/students/530e5960049e75a9262cff1d');
